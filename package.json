@@ -1,6 +1,6 @@
 {
   "name": "@ontic-labs/design-system",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ontic Labs design system - shared tokens, Tailwind preset, and CSS",
   "type": "module",
   "main": "./dist/index.js",
@@ -15,9 +15,26 @@
       "import": "./dist/preset.js",
       "types": "./dist/preset.d.ts"
     },
-    "./css": "./dist/tokens.css",
-    "./css/tokens": "./dist/tokens.css",
-    "./css/base": "./dist/base.css"
+    "./dist/tokens.css": {
+      "style": "./dist/tokens.css",
+      "default": "./dist/tokens.css"
+    },
+    "./dist/base.css": {
+      "style": "./dist/base.css",
+      "default": "./dist/base.css"
+    },
+    "./css": {
+      "style": "./dist/tokens.css",
+      "default": "./dist/tokens.css"
+    },
+    "./css/tokens": {
+      "style": "./dist/tokens.css",
+      "default": "./dist/tokens.css"
+    },
+    "./css/base": {
+      "style": "./dist/base.css",
+      "default": "./dist/base.css"
+    }
   },
   "files": [
     "dist",
