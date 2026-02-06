@@ -53,6 +53,13 @@
   
   --radius: 0.75rem;
 
+  /* Surface & text tokens */
+  --surface: 0 0% 98%;
+  --text-on-accent: 0 0% 100%;
+  
+  /* Spacing tokens */
+  --touch-target: 2.75rem;               /* 44px - minimum touch target */
+
   /* Code blocks */
   --code-bg: 0 0% 6%;
   --code-foreground: 0 0% 92%;
@@ -131,6 +138,9 @@
   --border: 0 0% 20%;
   --input: 0 0% 20%;
   --ring: 208 89% 58%;
+
+  --surface: 0 0% 11%;
+  --text-on-accent: 0 0% 100%;
   
   --code-bg: 0 0% 4%;
   --code-foreground: 0 0% 90%;
